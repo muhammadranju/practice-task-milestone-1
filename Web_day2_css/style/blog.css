@@ -1,0 +1,48 @@
+h3 {
+  margin-top: 5px;
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.blog {
+  margin: 40px;
+  border: 10 solid tomato;
+  box-shadow: 10px 20px 20px 5px blueviolet;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+span {
+  border: 2px solid purple;
+  padding: 0px 2px 0px 2px;
+}
+
+.list-items {
+  margin: 40px;
+}
+li {
+  /* display: inline; */
+}
+
+.header {
+  height: 300px;
+  background-color: bisque;
+  background-image: url("./baby.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+}
+.header h2 {
+  /* display: flex; */
+  background-color: antiquewhite;
+  padding: 5px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cow {
+  background-color: purple;
+}
