@@ -1,0 +1,25 @@
+.container-1 {
+  background-color: bisque;
+  padding: 10px;
+  border: 5px solid tomato;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.container-1 p {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container-1 h3 {
+  text-align: center;
+  font-size: 24px;
+}
+.list-items-1 {
+  text-align: center;
+  list-style-type: none;
+  font-size: 24px;
+  display: inline-flex;
+  margin: 10px;
+}
