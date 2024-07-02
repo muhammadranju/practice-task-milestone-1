@@ -18,6 +18,12 @@
         box-shadow: 5px 10px 30px #5b21b6;
         display: inline-block;
       }
+
+      .div-two:hover {
+        box-shadow: 5px 10px 30px #5b21b6;
+        transform: scale(1.1);
+        transition: 0.3s;
+      }
       h3 {
         font-size: 25px;
         font-weight: 900;
@@ -46,6 +52,25 @@
         cursor: pointer;
         color: white;
       }
+      .button:hover {
+        transform: scale(1.1);
+        transition: 0.3s;
+        box-shadow: 5px 5px 10px #5a21b683;
+      }
+      h3 {
+        font-size: 25px;
+        font-weight: 900;
+        text-align: center;
+        display: block;
+        color: #44403c;
+        text-transform: capitalize;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+
       .navbar {
         display: flex;
         justify-content: space-around;
@@ -65,6 +90,11 @@
         width: 80px;
         text-align: center;
       }
+      .navbar li:hover {
+        transform: scale(1.02);
+        transition: 0.3s;
+        box-shadow: 5px 5px 10px #5a21b683;
+      }
     </style>
   </head>
   <body>
@@ -73,10 +103,10 @@
         <ul class="navbar">
           <li>Home</li>
           <li>About</li>
-          <li>Concat</li>
+          <li>Contact</li>
         </ul>
       </nav>
-      <div class="div-one">
+      <div class="div-two">
         <h3>This is the heading one</h3>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, sequi
