@@ -6,205 +6,89 @@
     <title>Document</title>
     <style>
       .container {
-        display: inline;
-      }
-      .div-one,
-      .div-two {
-        width: 300px;
-        margin: 40px;
-        border: 3px solid #4f46e5;
-        padding: 20px;
-        border-radius: 20px;
-        box-shadow: 5px 10px 30px #5b21b6;
-        display: inline-block;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 10px;
+        grid-auto-flow: dense;
       }
 
-      .div-two:hover {
-        box-shadow: 5px 10px 30px #5b21b6;
-        transform: scale(1.1);
-        transition: 0.3s;
-      }
-      h3 {
-        font-size: 25px;
-        font-weight: 900;
-        text-align: center;
-        display: block;
-        color: #44403c;
-        text-transform: capitalize;
-      }
-      p {
-        font-size: 18px;
-        font-weight: 500;
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      }
-      .image {
-        border-radius: 20px;
-        display: block;
-      }
-      .button {
-        margin: 10px;
-        padding: 10px;
-        width: 100px;
-        font-weight: bold;
-        background-color: #9333ea;
-        border: none;
-        border-radius: 20px;
-        cursor: pointer;
-        color: white;
-      }
-      .button:hover {
-        transform: scale(1.1);
-        transition: 0.3s;
-        box-shadow: 5px 5px 10px #5a21b683;
-      }
-      h3 {
-        font-size: 25px;
-        font-weight: 900;
-        text-align: center;
-        display: block;
-        color: #44403c;
-        text-transform: capitalize;
-      }
-      p {
-        font-size: 18px;
-        font-weight: 500;
-        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-      }
-
-      .navbar {
-        display: flex;
-        justify-content: space-around;
-        list-style-type: none;
-        margin: 20px;
-        margin-top: 30px;
-        font-weight: bold;
-        padding: 20px;
-        border-radius: 30px;
-      }
-      .navbar li {
-        padding: 10px;
+      .container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         border-radius: 10px;
-        background-color: #7c3aed;
-        color: white;
         cursor: pointer;
-        width: 80px;
-        text-align: center;
       }
-      .navbar li:hover {
-        transform: scale(1.02);
-        transition: 0.3s;
-        box-shadow: 5px 5px 10px #5a21b683;
+      .horizontal {
+        grid-row: auto / span 2;
+        grid-column: auto / span 2;
+      }
+      .vertical {
+        grid-row: auto / span 1;
+        grid-column: auto / span 2;
+      }
+      .big {
+        grid-column: auto / span 2;
+        grid-row: auto / span 2;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <nav>
-        <ul class="navbar">
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-      <div class="div-two">
-        <h3>This is the heading one</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, sequi
-          minus! Atque eligendi autem, impedit provident, inventore sapiente ut
-          pariatur reiciendis dignissimos, error facilis ab nostrum eveniet.
-          Nam, voluptates facilis?
-        </p>
-        <img class="image" src="../style/baby.jpg" width="300px" alt="" />
-        <button class="button">See More</button>
+      <div class="vertical"><img src="./images/v/v (10).jpg" alt="" /></div>
+      <div class="horizontal"><img src="./images/h/h (1).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (2).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (1).jpg" alt="" /></div>
+      <div class="big"><img src="./images/b/b (3).jpg" alt="" /></div>
+      <div class="horizontal"><img src="./images/h/h (2).jpg" alt="" /></div>
+      <div class="big"><img src="./images/b/b (1).jpg" alt="" /></div>
+      <div class="horizontal"><img src="./images/h/h (3).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (11).jpg" alt="" /></div>
+      <div class="horizontal"><img src="./images/h/h (6).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (3).jpg" alt="" /></div>
+      <div class="big"><img src="./images/b/b (4).jpg" alt="" /></div>
+      <div class="horizontal"><img src="./images/h/h (5).jpg" alt="" /></div>
+      <div class="horizontal"><img src="./images/h/h (7).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (4).jpg" alt="" /></div>
+      <div class="horizontal"><img src="./images/h/h (9).png" alt="" /></div>
+      <div class="big"><img src="./images/b/b (5).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (4).jpg" alt="" /></div>
+      <div class="horizontal"><img src="./images/h/h (8).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (6).jpg" alt="" /></div>
+      <div class="big"><img src="./images/b/b (6).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (7).jpg" alt="" /></div>
+      <div class="big"><img src="./images/b/b (2).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (9).jpg" alt="" /></div>
+      <div class="horizontal"><img src="./images/h/h (4).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (5).jpg" alt="" /></div>
+      <div class="big"><img src="./images/b/b (7).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (8).jpg" alt="" /></div>
+      <div class="big"><img src="./images/b/b (8).jpg" alt="" /></div>
+      <div class="vertical"><img src="./images/v/v (12).jpg" alt="" /></div>
+      <div class="big">
+        <img src="../Web_day2_css/style/1166473.jpg" alt="" />
+      </div>
+      <div class="horizontal">
+        <img src="../Web_day2_css/style/161709.jpg" alt="" />
+      </div>
+      <div class="big">
+        <img src="../Web_day2_css/style/1648374.jpg" alt="" />
+      </div>
+      <div class="vertical">
+        <img src="../Web_day2_css/style/1973270.jpg" alt="" />
+      </div>
+      <div class="big">
+        <img src="../Web_day2_css/style/265987.jpg" alt="" />
+      </div>
+      <div class="vertical">
+        <img src="../Web_day2_css/style/266004.jpg" alt="" />
       </div>
 
-      <div class="div-two">
-        <h3>This the heading two</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-          dolores reprehenderit, inventore itaque, ullam, fuga ad blanditiis
-          quaerat temporibus magnam placeat quam suscipit perferendis sunt
-          libero voluptatem laborum quo deserunt?
-        </p>
-        <img class="image" src="../style/1973270.jpg" width="300px" alt="" />
-        <button class="button">See More</button>
+      <div class="horizontal">
+        <img src="../Web_day2_css/style/713959.jpg" alt="" />
       </div>
-      <div class="div-two">
-        <h3>This the heading three</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          quasi itaque qui quam numquam adipisci minima perferendis, veritatis
-          facere quod voluptas. Officia consequatur sit, fuga delectus aliquid
-          nisi earum aut!
-        </p>
-        <img class="image" src="../style/1166473.jpg" width="300px" alt="" />
-        <button class="button">See More</button>
-      </div>
-      <div class="div-two">
-        <h3>This the heading four</h3>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum
-          cupiditate laborum dignissimos, amet corrupti velit voluptatem
-          doloribus ducimus cum. Nam obcaecati possimus non nisi dolor, placeat
-          error mollitia quibusdam. Cumque.
-        </p>
-        <img class="image" src="../style/161709.jpg" width="300px" alt="" />
-        <button class="button">See More</button>
-      </div>
-      <div class="div-two">
-        <h3>This the heading five</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-          perspiciatis, ipsam animi maxime ex excepturi deserunt accusamus
-          error, nobis repudiandae ipsa dignissimos quidem eveniet asperiores
-          dicta mollitia! Animi, officiis enim.
-        </p>
-        <img class="image" src="../style/265987.jpg" width="300px" alt="" />
-        <button class="button">See More</button>
-      </div>
-      <div class="div-two">
-        <h3>This the heading six</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate
-          laboriosam itaque corporis, assumenda perferendis ab. Numquam, sint
-          totam excepturi eum veniam voluptatum doloribus tempore esse amet
-          animi temporibus quidem possimus!
-        </p>
-        <img class="image" src="../style/266004.jpg" width="300px" alt="" />
-        <button class="button">See More</button>
-      </div>
-      <div class="div-two">
-        <h3>This the heading seven</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid
-          unde iure eaque. Sit, hic aliquid et corrupti cupiditate in, obcaecati
-          placeat quasi voluptate nam vero soluta, necessitatibus consequatur
-          distinctio.
-        </p>
-        <img class="image" src="../style/459953.jpg" width="300px" alt="" />
-        <button class="button">See More</button>
-      </div>
-      <div class="div-two">
-        <h3>This the heading eight</h3>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi,
-          modi corporis voluptatem a, provident quaerat repellendus eos impedit
-          totam voluptates aperiam eius ullam mollitia dolorum dolor ducimus
-          laboriosam magni quidem.
-        </p>
-        <img class="image" src="../style/713959.jpg" width="300px" alt="" />
-        <button class="button">See More</button>
-      </div>
-      <div class="div-two">
-        <h3>This the heading nine</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          fugit hic qui quaerat animi, consequuntur excepturi, eaque error sequi
-          architecto id, modi corporis natus ipsa blanditiis accusantium
-          repellendus odit similique!
-        </p>
-        <img class="image" src="../style/1648374.jpg" width="300px" alt="" />
-        <button class="button">See More</button>
+      <div class="horizontal">
+        <img src="../Web_day2_css/style/baby.jpg" alt="" />
       </div>
     </div>
   </body>
