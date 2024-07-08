@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato;
+}
+
+/* start shared  styles*/
+.primary-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(229, 84, 115);
+  color: white;
+  width: 140px;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  height: 55px;
+}
+/* end shared  styles*/
+
+/* start header styles*/
+.header-container {
+  /* max-width: 1920px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 30px;
+  background-color: rgba(229, 84, 115, 0.1);
+  margin-left: 0;
+}
+
+.header-text-content {
+  width: 708px;
+  padding: 200px 200px 0px 0px;
+  margin-top: 0px;
+}
+
+.header-text-content h1 {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.header-text-content p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.header-image-content {
+  height: 800px;
+}
+
+/* end header styles*/
+
+/* start features section styles*/
+
+.featured-section {
+  margin-top: 100px;
+  /* width: 1920px; */
+}
+
+.featured-title-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.featured-title-section h4 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+}
+.featured-title-section p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  width: 594px;
+  margin-top: 30px;
+}
+
+.featured-images-section {
+  display: flex;
+  width: 1600px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* .featured-images-section img {
+  width: ;
+  height: auto;
+} */
+
+.featured-image-one {
+  /* padding: 90px 90px 0 0; */
+  width: 464px;
+  height: 538px;
+  border-radius: 50% 50% 0 0;
+  background-color: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 0 auto;
+}
+.featured-image-two {
+  /* padding: 90px 90px 0 0; */
+  width: 464px;
+  height: 538px;
+  border-radius: 50% 50% 0 0;
+  background-color: rgba(5, 151, 160, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 0 auto;
+}
+.featured-image-three {
+  /* padding: 90px 90px 0 0; */
+  width: 464px;
+  height: 538px;
+  border-radius: 50% 50% 0 0;
+  background-color: rgba(71, 125, 17, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 0 auto;
+}
+
+.featured-images-title-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+.featured-images-title-section p {
+  color: rgb(39, 39, 39);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 32px;
+  text-decoration: underline;
+}
+/* end features section styles*/
+
+/* start collect section style*/
+.collect-section {
+  width: 1440px;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  margin-top: 100px;
+}
+
+.collect-image-section {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0px 120px 0px 120px;
+}
+.collect-image-section img {
+  /* width: 77px;
+  height: 82.5px; */
+  margin-bottom: 26px;
+}
+.collect-image-section p {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* end collect section style*/
+
+/* start hot deal section style */
+
+.hot-deal-section {
+  background-color: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 100px;
+  gap: 30px;
+  text-align: center;
+}
+
+.hot-deal-text-section {
+  margin-right: 300px;
+}
+.hot-deal-section h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  width: 637px;
+}
+.hot-deal-section h2 span {
+  color: rgb(229, 84, 115);
+}
+.hot-deal-section p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  width: 594px;
+  margin-bottom: 34px;
+}
+
+.hot-deal-image-section {
+  margin-right: 100px;
+}
+
+/* end hot deal section style */
+
+/* Start Instagram Section style */
+
+.instagram-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.instagram-text-section h2 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.instagram-text-section p {
+  color: rgba(39, 39, 39, 0.6);
+  width: 594px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.instagram-images-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.instagram-images-section img {
+  border-radius: 10px;
+}
+/* End Instagram Section style */
+
+/* Start From Section style  */
+.from-section {
+  background-image: url("../Flower-Asset/Rectangle-9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1470px;
+  height: 449px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.from-title-section h2 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.from-title-section p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.from-input-section input {
+  padding: 20px;
+  border: none;
+  width: 700px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  margin-top: 48px;
+  forced-color-adjust: none;
+}
+/* End From Section style  */
+
+/* Start Footer Section Style */
+
+.footer-section {
+  background-color: rgb(17, 16, 16);
+
+  height: 449px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer-content-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 30px;
+  padding-top: 150px;
+  color: white;
+}
+.footer-content-section h1 {
+  font-size: 38px;
+  font-weight: 800;
+  color: white;
+}
+.footer-content-section p {
+  color: rgba(255, 255, 255, 0.9);
+
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer-content-section h1 span {
+  color: rgb(229, 84, 115);
+}
+.footer-content-section strong {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* End Footer Section Style */
