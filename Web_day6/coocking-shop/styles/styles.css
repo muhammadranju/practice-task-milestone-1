@@ -1,0 +1,789 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+}
+
+/*  start shared styles */
+.primary-btn {
+  padding: 10px;
+  width: 200px;
+  height: 60px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 16px;
+  cursor: pointer;
+
+  background: rgb(0, 0, 0);
+}
+/* end  shared styles */
+
+/* start header section style */
+.header-section {
+  margin-top: 40px;
+}
+.header-section hr {
+  color: 1px Middle rgba(0, 0, 0, 0.1);
+}
+
+.navbar-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.navbar-section li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.header-logo-section a {
+  text-decoration: none;
+  font-family: Lobster;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.header-logo-section span {
+  color: rgb(255, 116, 38);
+}
+.navbar-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.navbar-section li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.navbar-icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+/* end header section style */
+
+/* start home banner section style */
+.home-banner-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  /* gap: 200px; */
+}
+
+.banner-content-section {
+  border-radius: 50px 0px 0px 50px;
+  background-color: rgb(231, 250, 254);
+  width: 50%;
+  height: 640px;
+}
+
+.menu-icon {
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  width: 156px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+  margin-left: 50px;
+  margin-top: 70px;
+  text-align: center;
+}
+.menu-icon p {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.menu-icon img {
+  margin-left: 20px;
+}
+
+.banner-content-section h1 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;
+  width: 520px;
+  height: 154px;
+  margin-left: 50px;
+  margin-top: 24px;
+}
+.banner-content-section .banner-text {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 520px;
+  margin-left: 50px;
+  margin-top: 24px;
+}
+.time-cooking-icon {
+  margin-top: 30px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.time-icon,
+.cooking-icon {
+  width: 139px;
+  height: 40px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.time-icon img,
+.cooking-icon img {
+  margin-left: 20px;
+}
+.last-man-section {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin-top: 80px;
+  margin-left: 50px;
+  gap: 150px;
+}
+.last-man-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.last-man-icon img {
+  width: 50px;
+  height: 50px;
+}
+.last-man-icon h4 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+}
+.last-man-icon p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.banner-image-section {
+}
+.banner-badge-image {
+  position: absolute;
+  bottom: 550px;
+  right: 700px;
+}
+
+/* end home banner section style */
+
+/* start category section style */
+
+.category-text-section {
+  width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.category-text-section .view-category {
+  width: 200px;
+  height: 60px;
+  border-radius: 16px;
+  background: rgb(231, 250, 254);
+  text-align: center;
+  align-content: center;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.category-text-section h1 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.category-content-section {
+  width: 1680px;
+  height: 342px;
+  margin: 0 auto;
+}
+.category-content-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.categories {
+  text-align: center;
+  width: 180px;
+  height: 152px;
+  border-radius: 30px;
+}
+
+.category-images-section-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(112, 130, 70, 0),
+    rgba(112, 130, 70, 0.1) 100%
+  );
+}
+.category-images-section-2 {
+  background: linear-gradient(
+    180deg,
+    rgba(108, 198, 63, 0),
+    rgba(108, 198, 63, 0.1) 100%
+  );
+}
+.category-images-section-3 {
+  background: linear-gradient(
+    180deg,
+    rgba(204, 38, 27, 0),
+    rgba(204, 38, 27, 0.1) 100%
+  );
+}
+.category-images-section-4 {
+  border-radius: 30px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(240, 158, 0, 0),
+    rgba(240, 158, 0, 0.1) 100%
+  );
+}
+.category-images-section-5 {
+  background: linear-gradient(
+    180deg,
+    rgba(112, 130, 70, 0),
+    rgba(112, 130, 70, 0.1) 100%
+  );
+}
+.category-images-section-6 {
+  background: linear-gradient(
+    180deg,
+    rgba(112, 130, 70, 0),
+    rgba(112, 130, 70, 0.1) 100%
+  );
+}
+
+.category-images-section img {
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* end category section style */
+
+/* start tasty products section style */
+
+.tasty-products-section {
+  width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product-title-content {
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+
+.product-title-content h2 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.product-title-content p {
+  color: rgba(0, 0, 0, 0.6);
+  width: 706px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 90px;
+}
+
+.tasty-products-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.testy-product-content-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 20px;
+  gap: 20px;
+  /* width: 400px; */
+  margin: 0 auto;
+}
+
+.product-image-section {
+  /* width: 400px; */
+  border-radius: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(231, 249, 253, 0),
+    rgb(231, 249, 253) 100%
+  );
+  height: 434px;
+}
+
+.heard-icon {
+  position: relative;
+  left: 140px;
+  bottom: 395px;
+}
+.product-image-section img {
+  margin-bottom: 10px;
+}
+.product-image-section h3 {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 25px;
+  text-align: left;
+}
+.product-time-cooking-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.product-cooking-icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  gap: 10px;
+  margin-top: 50px;
+}
+/* end tasty products section style */
+
+/* start popular recipes section style */
+.popular-recipes-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 1280px;
+}
+
+.popular-recipes-content-section {
+  width: 851px;
+  /* height: 500px; */
+  border-radius: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(231, 249, 253, 0),
+    rgb(231, 249, 253) 100%
+  );
+}
+
+.popular-recipes-title-section h1 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  width: 526px;
+  margin-bottom: 24px;
+}
+.popular-recipes-title-section p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 72px;
+}
+.popular-recipes-content-section img {
+  width: 660px;
+  height: 100%px;
+  padding-top: 40px;
+}
+
+.popular-recipes-icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.popular-recipes-icon-section img {
+  position: absolute;
+  width: 60px;
+}
+.icon-1 {
+  left: 500px;
+  bottom: 400px;
+}
+.icon-2 {
+  left: 30px;
+  bottom: 450px;
+}
+.icon-3 {
+  left: 30px;
+  bottom: 150px;
+}
+.icon-4 {
+  left: 500px;
+  bottom: 10px;
+}
+.icon-5 {
+  left: 90px;
+  bottom: 380px;
+}
+/* end popular recipes section style */
+
+/* start instagram section style */
+
+.instagram-post-section {
+  width: 1440px;
+  height: 920px;
+  background: linear-gradient(
+    180deg,
+    rgba(231, 249, 253, 0),
+    rgb(231, 249, 253) 100%
+  );
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.instagram-text-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.instagram-text-section h1 {
+  color: rgb(0, 0, 0);
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+.instagram-text-section p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  width: 840px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 24px;
+}
+.instagram-images-section {
+  display: flex;
+  /* grid-template-columns: repeat(4, 1fr); */
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* end instagram section style */
+
+/*  start delicious recipe section style */
+.delicious-recipe-section {
+  width: 1600px;
+  /* text-align: center; */
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.recipe-posts-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 20px;
+  /* gap: 20px; */
+  /* width: 400px; */
+  margin: 0 auto;
+}
+
+.recipe-text-section {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  gap: 180px;
+  margin-bottom: 60px;
+}
+.recipe-text-section h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  width: 597px;
+}
+.recipe-text-section p {
+  color: rgba(0, 0, 0, 0.6);
+  width: 620px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* .recipe-posts-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+} */
+
+.recipe-image-section {
+  width: 290px;
+  border-radius: 30px;
+  height: 434px;
+}
+.recipe-image-section h3 {
+  margin-top: 20px;
+}
+.recipe-time-cooking-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.recipe-cooking-icon {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.heard-icon-2 {
+  position: relative;
+  left: 300px;
+  bottom: 330px;
+}
+/*  end delicious recipe section style */
+
+/* start contact section style */
+
+.contact-container-section {
+  width: 1600px;
+  height: 442px;
+  border-radius: 60px;
+  background: rgb(231, 249, 253);
+  margin: 0 auto;
+  position: relative;
+  margin-top: 100px;
+}
+
+.contact-text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-text-section h1 {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  margin-top: 80px;
+}
+.contact-text-section p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  width: 620px;
+  height: 56px;
+  text-align: center;
+  margin-top: 20px;
+}
+.contact-from-section {
+  text-align: center;
+  align-content: center;
+}
+
+.contact-from-input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 64px;
+}
+.contact-from-input-section input {
+  width: 580px;
+  height: 80px;
+  border-radius: 24px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  background: rgb(255, 255, 255);
+  padding-left: 50px;
+  position: absolute;
+  align-content: center;
+  border: none;
+}
+.input-btn {
+  position: relative;
+  /* right: 700px; */
+  /* top: px; */
+  bottom: 30px;
+  left: 200px;
+}
+.kissing-salad {
+  position: relative;
+  bottom: 300px;
+  left: 10px;
+  width: 409.54px;
+  z-index: 1;
+}
+.photo-plate {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  width: 300.07px;
+}
+.rucola {
+  position: absolute;
+  width: 6.85px;
+  right: 300px;
+}
+/* end contact section style */
+
+/* start footer section style */
+
+.footer-section {
+  /* width: 1600px; */
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
+/* .footer-navbar-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.footer-navbar-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.footer-navbar-section li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.footer-logo-section a {
+  text-decoration: none;
+  font-family: Lobster;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.footer-logo-section span {
+  color: rgb(255, 116, 38);
+}
+.footer-navbar-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  gap: 60px;
+}
+
+.footer-navbar-section li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer-icon-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  gap: 40px;
+}
+.copy-right {
+  margin: 0 auto;
+  margin-top: 48px;
+  margin-bottom: 20px;
+  /* font-family: Eudoxus Sans; */
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo-para {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+}
+.copy-right span {
+  color: rgb(255, 121, 103);
+}
+/* end footer section style */
