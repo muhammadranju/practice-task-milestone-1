@@ -18,7 +18,7 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 1920px;
+  /* max-width: 1920px; */
 }
 
 /*  start shared styles */
@@ -39,7 +39,12 @@
 
 /* start header section style */
 .header-section {
-  margin-top: 40px;
+  /* margin-top: 40px; */
+  padding-top: 30px;
+  position: sticky;
+  top: -5px;
+  background-color: white;
+  z-index: 1;
 }
 .header-section hr {
   color: 1px Middle rgba(0, 0, 0, 0.1);
@@ -50,7 +55,7 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 .navbar-section li {
   list-style: none;
