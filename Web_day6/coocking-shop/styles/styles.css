@@ -15,6 +15,10 @@
   font-variation-settings: "slnt" 0;
 }
 
+html {
+  scroll-behavior: smooth;
+  margin-bottom: 30px;
+}
 * {
   margin: 0;
   padding: 0;
@@ -32,7 +36,6 @@
   font-weight: 600;
   border-radius: 16px;
   cursor: pointer;
-
   background: rgb(0, 0, 0);
 }
 /* end  shared styles */
@@ -42,7 +45,7 @@
   /* margin-top: 40px; */
   padding-top: 30px;
   position: sticky;
-  top: -5px;
+  top: 0px;
   background-color: white;
   z-index: 1;
 }

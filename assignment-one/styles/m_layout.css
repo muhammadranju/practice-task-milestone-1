@@ -1,0 +1,55 @@
+.hide {
+  visibility: hidden;
+}
+@media screen and (max-width: 576px) {
+  .hero-banner-section {
+    flex-direction: column;
+  }
+  .hero-banner-section img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .hero-banner-section h1 {
+    font-size: 24px;
+    width: 95%;
+  }
+
+  .hero-banner-section p {
+    font-size: 16px;
+    width: 95%;
+  }
+
+  .development-section {
+    width: 100%;
+  }
+
+  .dev-title-section p {
+    width: 80%;
+  }
+  .dev-item-section-left,
+  .dev-item-section-right {
+    display: flex;
+    flex-direction: column-reverse;
+
+    width: 90%;
+    gap: 0px;
+    padding: 0;
+  }
+  .dev-item-section-left h1,
+  .dev-item-section-right h1 {
+    font-size: 15px;
+    width: 50%;
+  }
+  .dev-item-section-left p,
+  .dev-item-section-right p {
+    font-size: 12px;
+    width: 50%;
+  }
+
+  .dev-item-section-left img,
+  .dev-item-section-right img {
+    width: 50%;
+    height: 50%;
+  }
+}
